@@ -1,0 +1,51 @@
+{
+  "name": "markdown-list",
+  "description": "Render a markdown-formatted bullet list from an array or string.",
+  "version": "0.1.0",
+  "homepage": "https://github.com/jonschlinkert/markdown-list",
+  "author": "Jon Schlinkert (https://github.com/jonschlinkert)",
+  "repository": "jonschlinkert/markdown-list",
+  "bugs": {
+    "url": "https://github.com/jonschlinkert/markdown-list/issues"
+  },
+  "license": "MIT",
+  "files": [
+    "index.js"
+  ],
+  "main": "index.js",
+  "engines": {
+    "node": ">=0.10.0"
+  },
+  "scripts": {
+    "test": "mocha"
+  },
+  "dependencies": {
+    "bullets": "^0.2.2",
+    "expand-range": "^1.8.1",
+    "is-even": "^0.1.1",
+    "to-list": "^0.1.1"
+  },
+  "devDependencies": {
+    "gulp-format-md": "^0.1.5",
+    "mocha": "*"
+  },
+  "keywords": [
+    "list",
+    "markdown"
+  ],
+  "verb": {
+    "related": {
+      "list": [
+        "bullets",
+        "deromanize",
+        "list-item",
+        "romanize",
+        "to-list"
+      ]
+    },
+    "layout": "default",
+    "plugins": [
+      "gulp-format-md"
+    ]
+  }
+}
